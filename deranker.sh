@@ -40,11 +40,15 @@ function launchsteam {
             5) echo `$TERMINALNAME -e "su -l $ACCOUNT5 steam -applaunch 730"`;;
             6) outofbounds
         esac
+		sleep 30s
+		removelockfiles
         let LOOPCOUNT=LOOPCOUNT+1
 
     done 
 }
-
+function removelockfiles {
+	echo `rm -f /tmp/*.lock`
+}
 function outofbounds {
     echo "LOOP value is more than 5, don't use a value of more than 5"
     exit
