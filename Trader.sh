@@ -24,7 +24,7 @@ function disableaccesscontrol {
 function launchsteam {
     echo "Launching Steam"
     echo "Opening $LOOP instances of Terminal"
-    LOOPCOUNT=0 ;; # start at 0 to include current user, start at 1 to just execute other user steam profiles
+    LOOPCOUNT=0 # start at 0 to include current user, start at 1 to just execute other user steam profiles
     while [ $LOOPCOUNT -le $LOOP ]; do
         # the command: su -l $ACCOUNTNAME steam
         # is used to launch steam
