@@ -1,6 +1,12 @@
-# TD Bash Scripts
+#Vertigo Boost and Trading Scripts
 
-These contains the bash scripts that I use on my Linux Mint device for deranking and trading multiple accounts.
+These collection of Linux Bash scripts are used to launch multiple instances of Counter-Strike: Global Offensive using different users in Linux.
 
-Trading.sh - open multiple instances of Steam Client using different user spaces. Useful for trading within accounts.
-Deranker.sh - open multiple instances of Counter-Strike:Global Offensive. Currently incomplete/inoperational. Will be fixed ASAP. Useful for Vertigo Boosting and Deranking
+#Developer's Machine
+MSI GE70-2OE running Linux Mint 16 MATE
+
+#trader.sh
+Launch the Steam Clients.
+
+#deranker.sh
+Launch (up to 5) instances of Counter-Strike: Global Offensive.
