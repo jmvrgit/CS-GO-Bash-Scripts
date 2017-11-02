@@ -1,0 +1,1 @@
+-novid -nojoy -nod3d9ex +duck -windowed -h 480 -w 640
